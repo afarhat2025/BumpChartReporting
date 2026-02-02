@@ -1,0 +1,227 @@
+2026-02-02 08:24:03,204 [INFO] ================================================================================
+2026-02-02 08:24:03,204 [INFO] Processing file: 3. GM Bump Charts/2R Exec - BT1YL_T1SUV/Bump Chart - BT1YL - T1SUV 2nd Row Executive - Current Q1 2026.xlsx
+2026-02-02 08:24:03,204 [INFO] ================================================================================
+2026-02-02 08:24:03,342 [INFO] Found 8 Excel parts in 3. GM Bump Charts/2R Exec - BT1YL_T1SUV/Bump Chart - BT1YL - T1SUV 2nd Row Executive - Current Q1 2026.xlsx
+2026-02-02 08:24:03,342 [INFO] Part Number  Program      Chart Price  Plex Price   Delta        Status                                             OEM Plant    PCN        Customer                  Description 
+2026-02-02 08:24:03,342 [INFO] -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-02-02 08:24:03,343 [INFO] [19770] Requesting price for part_key=5636534 payload={'inputs': {'Part_Key': 5636534, 'Shipper_Date_Begin': '2025-09-01T00:00:00Z'}}
+2026-02-02 08:24:04,123 [INFO] [19770] Response status 200 for part_key 5636534
+2026-02-02 08:24:04,123 [INFO] [19770] Returned 52 rows for part_key=5636534
+2026-02-02 08:24:04,208 [INFO] [19770] Selected PO 1026805 with price 177.44 (status=Success)
+2026-02-02 08:24:04,209 [INFO] 85878683                  177.07       177.44       0.36900      Success                                                         SCS        Lear Corporation North America EZ Entry LH w/Modal
+2026-02-02 08:24:04,213 [INFO] [19770] Requesting price for part_key=5636536 payload={'inputs': {'Part_Key': 5636536, 'Shipper_Date_Begin': '2025-09-01T00:00:00Z'}}
+2026-02-02 08:24:04,675 [INFO] [19770] Response status 200 for part_key 5636536
+2026-02-02 08:24:04,675 [INFO] [19770] Returned 47 rows for part_key=5636536
+2026-02-02 08:24:04,716 [INFO] [19770] Selected PO 1029844 with price 180.82 (status=Success)
+2026-02-02 08:24:04,716 [INFO] 85878685                  177.07       180.82       3.74900      Success                                                         SCS        Lear Corporation North America EZ Entry RH w/Modal
+2026-02-02 08:24:04,716 [INFO] [19770] Requesting price for part_key=5636538 payload={'inputs': {'Part_Key': 5636538, 'Shipper_Date_Begin': '2025-09-01T00:00:00Z'}}
+2026-02-02 08:24:05,137 [INFO] [19770] Response status 200 for part_key 5636538
+2026-02-02 08:24:05,137 [INFO] [19770] Returned 28 rows for part_key=5636538
+2026-02-02 08:24:05,166 [INFO] [19770] Selected PO 1029844 with price 218.75 (status=Success)
+2026-02-02 08:24:05,166 [INFO] 85878686                  215.00       218.75       3.74760      Success                                                         SCS        Lear Corporation North America EZ Entry LH w/Modal Armrest
+2026-02-02 08:24:05,166 [INFO] [19770] Requesting price for part_key=5636539 payload={'inputs': {'Part_Key': 5636539, 'Shipper_Date_Begin': '2025-09-01T00:00:00Z'}}
+2026-02-02 08:24:05,690 [INFO] [19770] Response status 200 for part_key 5636539
+2026-02-02 08:24:05,690 [INFO] [19770] Returned 60 rows for part_key=5636539
+2026-02-02 08:24:05,785 [INFO] [19770] Selected PO 1029844 with price 218.75 (status=Success)
+2026-02-02 08:24:05,786 [INFO] 85878687                  215.00       218.75       3.74760      Success                                                         SCS        Lear Corporation North America EZ Entry RH w/Modal Armrest
+2026-02-02 08:24:05,786 [INFO] [885] Requesting Part_Key for 86327759 with payload {'inputs': {'Part_No': '86327759', 'Active_Only': 1}}
+2026-02-02 08:24:06,043 [INFO] [885] Response status 200 for part 86327759
+2026-02-02 08:24:06,044 [INFO] [885] Returned 0 candidate rows for 86327759
+2026-02-02 08:24:06,044 [INFO] [885] Part_Key not found via Part_No lookup for 86327759; retrying with Customer_Part_No.
+2026-02-02 08:24:06,044 [INFO] [885] Requesting Part_Key for 86327759 with payload {'inputs': {'Customer_Part_No': '86327759', 'Active_Only': 1}}
+2026-02-02 08:24:06,277 [INFO] [885] Response status 200 for part 86327759
+2026-02-02 08:24:06,277 [INFO] [885] Returned 0 candidate rows for 86327759
+2026-02-02 08:24:06,277 [INFO] 86327759                  279.88       279.88       0.00000      No part found (no Part_Key)                                     SCS        Lear Corporation North America 4W Cushion Power LH
+2026-02-02 08:24:06,278 [INFO] Skipping part 86327759 due to missing Part_Key (status logged only)
+2026-02-02 08:24:06,278 [INFO] [885] Requesting Part_Key for 86327760 with payload {'inputs': {'Part_No': '86327760', 'Active_Only': 1}}
+2026-02-02 08:24:06,550 [INFO] [885] Response status 200 for part 86327760
+2026-02-02 08:24:06,550 [INFO] [885] Returned 0 candidate rows for 86327760
+2026-02-02 08:24:06,550 [INFO] [885] Part_Key not found via Part_No lookup for 86327760; retrying with Customer_Part_No.
+2026-02-02 08:24:06,550 [INFO] [885] Requesting Part_Key for 86327760 with payload {'inputs': {'Customer_Part_No': '86327760', 'Active_Only': 1}}
+2026-02-02 08:24:06,734 [INFO] [885] Response status 200 for part 86327760
+2026-02-02 08:24:06,734 [INFO] [885] Returned 0 candidate rows for 86327760
+2026-02-02 08:24:06,734 [INFO] 86327760                  279.97       279.97       0.00000      No part found (no Part_Key)                                     SCS        Lear Corporation North America 4W Cushion Power RH
+2026-02-02 08:24:06,734 [INFO] Skipping part 86327760 due to missing Part_Key (status logged only)
+2026-02-02 08:24:06,735 [INFO] [885] Requesting Part_Key for 86327761 with payload {'inputs': {'Part_No': '86327761', 'Active_Only': 1}}
+2026-02-02 08:24:07,044 [INFO] [885] Response status 200 for part 86327761
+2026-02-02 08:24:07,044 [INFO] [885] Returned 0 candidate rows for 86327761
+2026-02-02 08:24:07,044 [INFO] [885] Part_Key not found via Part_No lookup for 86327761; retrying with Customer_Part_No.
+2026-02-02 08:24:07,044 [INFO] [885] Requesting Part_Key for 86327761 with payload {'inputs': {'Customer_Part_No': '86327761', 'Active_Only': 1}}
+2026-02-02 08:24:07,225 [INFO] [885] Response status 200 for part 86327761
+2026-02-02 08:24:07,225 [INFO] [885] Returned 0 candidate rows for 86327761
+2026-02-02 08:24:07,226 [INFO] 86327761                  280.04       280.04       0.00000      No part found (no Part_Key)                                     SCS        Lear Corporation North America 4W Cushion Power LH SWB w/o SPS
+2026-02-02 08:24:07,226 [INFO] Skipping part 86327761 due to missing Part_Key (status logged only)
+2026-02-02 08:24:07,227 [INFO] [885] Requesting Part_Key for 86327762 with payload {'inputs': {'Part_No': '86327762', 'Active_Only': 1}}
+2026-02-02 08:24:07,473 [INFO] [885] Response status 200 for part 86327762
+2026-02-02 08:24:07,473 [INFO] [885] Returned 0 candidate rows for 86327762
+2026-02-02 08:24:07,474 [INFO] [885] Part_Key not found via Part_No lookup for 86327762; retrying with Customer_Part_No.
+2026-02-02 08:24:07,474 [INFO] [885] Requesting Part_Key for 86327762 with payload {'inputs': {'Customer_Part_No': '86327762', 'Active_Only': 1}}
+2026-02-02 08:24:07,693 [INFO] [885] Response status 200 for part 86327762
+2026-02-02 08:24:07,693 [INFO] [885] Returned 0 candidate rows for 86327762
+2026-02-02 08:24:07,694 [INFO] 86327762                  280.13       280.13       0.00000      No part found (no Part_Key)                                     SCS        Lear Corporation North America 4W Cushion Power RH SWB w/o SPS
+2026-02-02 08:24:07,694 [INFO] Skipping part 86327762 due to missing Part_Key (status logged only)
+2026-02-02 08:24:07,747 [INFO] Report written to /home/mrumel/bump_chart_reporting/Results/20260202_082403/Delta-Report_Bump Chart - BT1YL - T1SUV 2nd Row Executive - Current Q1 2026.xlsx (Part_Key column hidden)
+2026-02-02 08:24:07,747 [INFO] Completed processing 3. GM Bump Charts/2R Exec - BT1YL_T1SUV/Bump Chart - BT1YL - T1SUV 2nd Row Executive - Current Q1 2026.xlsx. Processed 4 parts.
+2026-02-02 08:24:07,747 [INFO] ================================================================================
+2026-02-02 08:24:07,747 [INFO] Processing file: 3. GM Bump Charts/C121 Relaunch/C121 Relaunch Bump Chart - ECR 7065022 - 1.26.26.xlsm
+2026-02-02 08:24:07,747 [INFO] ================================================================================
+2026-02-02 08:24:07,962 [INFO] Found 22 Excel parts in 3. GM Bump Charts/C121 Relaunch/C121 Relaunch Bump Chart - ECR 7065022 - 1.26.26.xlsm
+2026-02-02 08:24:07,962 [INFO] Part Number  Program      Chart Price  Plex Price   Delta        Status                                             OEM Plant    PCN        Customer                  Description 
+2026-02-02 08:24:07,962 [INFO] -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-02-02 08:24:07,963 [INFO] [885] Requesting Part_Key for 13558247 with payload {'inputs': {'Part_No': '13558247', 'Active_Only': 1}}
+2026-02-02 08:24:08,241 [INFO] [885] Response status 200 for part 13558247
+2026-02-02 08:24:08,242 [INFO] [885] Returned 5 candidate rows for 13558247
+2026-02-02 08:24:08,242 [INFO] [885] Part_Key not found via Part_No lookup for 13558247; retrying with Customer_Part_No.
+2026-02-02 08:24:08,242 [INFO] [885] Requesting Part_Key for 13558247 with payload {'inputs': {'Customer_Part_No': '13558247', 'Active_Only': 1}}
+2026-02-02 08:24:08,466 [INFO] [885] Response status 200 for part 13558247
+2026-02-02 08:24:08,466 [INFO] [885] Returned 5 candidate rows for 13558247
+2026-02-02 08:24:08,467 [INFO] 13558247     C121         85.11        85.11        0.00000      No part found (no Part_Key)                        Fairfax      95506                                4WM Cushion LH
+2026-02-02 08:24:08,467 [INFO] Skipping part 13558247 due to missing Part_Key (status logged only)
+2026-02-02 08:24:08,468 [INFO] [885] Requesting Part_Key for 13558246 with payload {'inputs': {'Part_No': '13558246', 'Active_Only': 1}}
+2026-02-02 08:24:08,737 [INFO] [885] Response status 200 for part 13558246
+2026-02-02 08:24:08,737 [INFO] [885] Returned 5 candidate rows for 13558246
+2026-02-02 08:24:08,737 [INFO] [885] Part_Key not found via Part_No lookup for 13558246; retrying with Customer_Part_No.
+2026-02-02 08:24:08,737 [INFO] [885] Requesting Part_Key for 13558246 with payload {'inputs': {'Customer_Part_No': '13558246', 'Active_Only': 1}}
+2026-02-02 08:24:08,938 [INFO] [885] Response status 200 for part 13558246
+2026-02-02 08:24:08,938 [INFO] [885] Returned 5 candidate rows for 13558246
+2026-02-02 08:24:08,939 [INFO] 13558246     C121         85.58        85.58        0.00000      No part found (no Part_Key)                        Fairfax      95506                                4WM Cushion RH
+2026-02-02 08:24:08,939 [INFO] Skipping part 13558246 due to missing Part_Key (status logged only)
+2026-02-02 08:24:08,939 [INFO] [885] Requesting Part_Key for 13566495 with payload {'inputs': {'Part_No': '13566495', 'Active_Only': 1}}
+2026-02-02 08:24:09,320 [INFO] [885] Response status 200 for part 13566495
+2026-02-02 08:24:09,320 [INFO] [885] Returned 4 candidate rows for 13566495
+2026-02-02 08:24:09,321 [INFO] [885] Part_Key not found via Part_No lookup for 13566495; retrying with Customer_Part_No.
+2026-02-02 08:24:09,321 [INFO] [885] Requesting Part_Key for 13566495 with payload {'inputs': {'Customer_Part_No': '13566495', 'Active_Only': 1}}
+2026-02-02 08:24:09,547 [INFO] [885] Response status 200 for part 13566495
+2026-02-02 08:24:09,547 [INFO] [885] Returned 4 candidate rows for 13566495
+2026-02-02 08:24:09,547 [INFO] 13566495     C121         118.39       118.39       0.00000      No part found (no Part_Key)                        Fairfax      95506                                6WP Cushion LH
+2026-02-02 08:24:09,547 [INFO] Skipping part 13566495 due to missing Part_Key (status logged only)
+2026-02-02 08:24:09,548 [INFO] [885] Requesting Part_Key for 13526519 with payload {'inputs': {'Part_No': '13526519', 'Active_Only': 1}}
+2026-02-02 08:24:09,852 [INFO] [885] Response status 200 for part 13526519
+2026-02-02 08:24:09,852 [INFO] [885] Returned 4 candidate rows for 13526519
+2026-02-02 08:24:09,853 [INFO] [885] Part_Key not found via Part_No lookup for 13526519; retrying with Customer_Part_No.
+2026-02-02 08:24:09,853 [INFO] [885] Requesting Part_Key for 13526519 with payload {'inputs': {'Customer_Part_No': '13526519', 'Active_Only': 1}}
+2026-02-02 08:24:10,124 [INFO] [885] Response status 200 for part 13526519
+2026-02-02 08:24:10,124 [INFO] [885] Returned 4 candidate rows for 13526519
+2026-02-02 08:24:10,125 [INFO] 13526519     C121         32.88        32.88        0.00000      No part found (no Part_Key)                        Fairfax      95506                                Manual Back LH
+2026-02-02 08:24:10,125 [INFO] Skipping part 13526519 due to missing Part_Key (status logged only)
+2026-02-02 08:24:10,126 [INFO] [885] Requesting Part_Key for 13526520 with payload {'inputs': {'Part_No': '13526520', 'Active_Only': 1}}
+2026-02-02 08:24:10,412 [INFO] [885] Response status 200 for part 13526520
+2026-02-02 08:24:10,412 [INFO] [885] Returned 5 candidate rows for 13526520
+2026-02-02 08:24:10,413 [INFO] [885] Part_Key not found via Part_No lookup for 13526520; retrying with Customer_Part_No.
+2026-02-02 08:24:10,413 [INFO] [885] Requesting Part_Key for 13526520 with payload {'inputs': {'Customer_Part_No': '13526520', 'Active_Only': 1}}
+2026-02-02 08:24:10,641 [INFO] [885] Response status 200 for part 13526520
+2026-02-02 08:24:10,641 [INFO] [885] Returned 4 candidate rows for 13526520
+2026-02-02 08:24:10,641 [INFO] 13526520     C121         32.88        32.88        0.00000      No part found (no Part_Key)                        Fairfax      95506                                Manual Back RH
+2026-02-02 08:24:10,641 [INFO] Skipping part 13526520 due to missing Part_Key (status logged only)
+2026-02-02 08:24:10,642 [INFO] [885] Requesting Part_Key for 13566496 with payload {'inputs': {'Part_No': '13566496', 'Active_Only': 1}}
+2026-02-02 08:24:10,961 [INFO] [885] Response status 200 for part 13566496
+2026-02-02 08:24:10,961 [INFO] [885] Returned 5 candidate rows for 13566496
+2026-02-02 08:24:10,962 [INFO] [885] Part_Key not found via Part_No lookup for 13566496; retrying with Customer_Part_No.
+2026-02-02 08:24:10,962 [INFO] [885] Requesting Part_Key for 13566496 with payload {'inputs': {'Customer_Part_No': '13566496', 'Active_Only': 1}}
+2026-02-02 08:24:11,162 [INFO] [885] Response status 200 for part 13566496
+2026-02-02 08:24:11,163 [INFO] [885] Returned 5 candidate rows for 13566496
+2026-02-02 08:24:11,163 [INFO] 13566496     C121         40.29        40.29        0.00000      No part found (no Part_Key)                        Fairfax      95506                                Power Back LH
+2026-02-02 08:24:11,163 [INFO] Skipping part 13566496 due to missing Part_Key (status logged only)
+2026-02-02 08:24:11,164 [INFO] [885] Requesting Part_Key for 13522765 with payload {'inputs': {'Part_No': '13522765', 'Active_Only': 1}}
+2026-02-02 08:24:11,449 [INFO] [885] Response status 200 for part 13522765
+2026-02-02 08:24:11,449 [INFO] [885] Returned 8 candidate rows for 13522765
+2026-02-02 08:24:11,449 [INFO] [885] Part_Key not found via Part_No lookup for 13522765; retrying with Customer_Part_No.
+2026-02-02 08:24:11,449 [INFO] [885] Requesting Part_Key for 13522765 with payload {'inputs': {'Customer_Part_No': '13522765', 'Active_Only': 1}}
+2026-02-02 08:24:11,674 [INFO] [885] Response status 200 for part 13522765
+2026-02-02 08:24:11,674 [INFO] [885] Returned 9 candidate rows for 13522765
+2026-02-02 08:24:11,675 [INFO] 13522765     C121         41.45        41.45        0.00000      No part found (no Part_Key)                        Fairfax      95506                                60% Rear Seat
+2026-02-02 08:24:11,675 [INFO] Skipping part 13522765 due to missing Part_Key (status logged only)
+2026-02-02 08:24:11,676 [INFO] [885] Requesting Part_Key for 13522764 with payload {'inputs': {'Part_No': '13522764', 'Active_Only': 1}}
+2026-02-02 08:24:11,968 [INFO] [885] Response status 200 for part 13522764
+2026-02-02 08:24:11,969 [INFO] [885] Returned 8 candidate rows for 13522764
+2026-02-02 08:24:11,969 [INFO] [885] Part_Key not found via Part_No lookup for 13522764; retrying with Customer_Part_No.
+2026-02-02 08:24:11,969 [INFO] [885] Requesting Part_Key for 13522764 with payload {'inputs': {'Customer_Part_No': '13522764', 'Active_Only': 1}}
+2026-02-02 08:24:12,176 [INFO] [885] Response status 200 for part 13522764
+2026-02-02 08:24:12,177 [INFO] [885] Returned 9 candidate rows for 13522764
+2026-02-02 08:24:12,177 [INFO] 13522764     C121         25.40        25.40        0.00000      No part found (no Part_Key)                        Fairfax      95506                                40% Rear Seat
+2026-02-02 08:24:12,177 [INFO] Skipping part 13522764 due to missing Part_Key (status logged only)
+2026-02-02 08:24:12,177 [INFO] [885] Requesting Part_Key for 13506287 with payload {'inputs': {'Part_No': '13506287', 'Active_Only': 1}}
+2026-02-02 08:24:12,434 [INFO] [885] Response status 200 for part 13506287
+2026-02-02 08:24:12,434 [INFO] [885] Returned 0 candidate rows for 13506287
+2026-02-02 08:24:12,435 [INFO] [885] Part_Key not found via Part_No lookup for 13506287; retrying with Customer_Part_No.
+2026-02-02 08:24:12,435 [INFO] [885] Requesting Part_Key for 13506287 with payload {'inputs': {'Customer_Part_No': '13506287', 'Active_Only': 1}}
+2026-02-02 08:24:12,643 [INFO] [885] Response status 200 for part 13506287
+2026-02-02 08:24:12,643 [INFO] [885] Returned 0 candidate rows for 13506287
+2026-02-02 08:24:12,644 [INFO] 13506287     C121         4.52         4.52         0.00000      No part found (no Part_Key)                        Fairfax      95506                                Latch LH    
+2026-02-02 08:24:12,644 [INFO] Skipping part 13506287 due to missing Part_Key (status logged only)
+2026-02-02 08:24:12,644 [INFO] [885] Requesting Part_Key for 13506288 with payload {'inputs': {'Part_No': '13506288', 'Active_Only': 1}}
+2026-02-02 08:24:12,888 [INFO] [885] Response status 200 for part 13506288
+2026-02-02 08:24:12,888 [INFO] [885] Returned 0 candidate rows for 13506288
+2026-02-02 08:24:12,889 [INFO] [885] Part_Key not found via Part_No lookup for 13506288; retrying with Customer_Part_No.
+2026-02-02 08:24:12,889 [INFO] [885] Requesting Part_Key for 13506288 with payload {'inputs': {'Customer_Part_No': '13506288', 'Active_Only': 1}}
+2026-02-02 08:24:13,099 [INFO] [885] Response status 200 for part 13506288
+2026-02-02 08:24:13,100 [INFO] [885] Returned 0 candidate rows for 13506288
+2026-02-02 08:24:13,100 [INFO] 13506288     C121         4.52         4.52         0.00000      No part found (no Part_Key)                        Fairfax      95506                                Latch RH    
+2026-02-02 08:24:13,100 [INFO] Skipping part 13506288 due to missing Part_Key (status logged only)
+2026-02-02 08:24:13,101 [INFO] [885] Requesting Part_Key for 13517474 with payload {'inputs': {'Part_No': '13517474', 'Active_Only': 1}}
+2026-02-02 08:24:13,371 [INFO] [885] Response status 200 for part 13517474
+2026-02-02 08:24:13,371 [INFO] [885] Returned 5 candidate rows for 13517474
+2026-02-02 08:24:13,371 [INFO] [885] Part_Key not found via Part_No lookup for 13517474; retrying with Customer_Part_No.
+2026-02-02 08:24:13,371 [INFO] [885] Requesting Part_Key for 13517474 with payload {'inputs': {'Customer_Part_No': '13517474', 'Active_Only': 1}}
+2026-02-02 08:24:13,593 [INFO] [885] Response status 200 for part 13517474
+2026-02-02 08:24:13,593 [INFO] [885] Returned 15 candidate rows for 13517474
+2026-02-02 08:24:13,594 [INFO] 13517474     C121         3.96         3.96         0.00000      No part found (no Part_Key)                        Fairfax      95506                                Hinge R/Seat Back
+2026-02-02 08:24:13,594 [INFO] Skipping part 13517474 due to missing Part_Key (status logged only)
+2026-02-02 08:24:13,595 [INFO] [19770] Requesting price for part_key=5499789 payload={'inputs': {'Part_Key': 5499789, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:14,702 [INFO] [19770] Response status 200 for part_key 5499789
+2026-02-02 08:24:14,702 [INFO] [19770] Returned 2 rows for part_key=5499789
+2026-02-02 08:24:14,704 [INFO] [19770] Selected PO 55079316 with price 84.22545 (status=Success)
+2026-02-02 08:24:14,705 [INFO] 13558247     C121         82.90        84.23        1.32175      Success                                            Fairfax      SCS        Bridgewater Interiors     4WM Cushion LH
+2026-02-02 08:24:14,709 [INFO] [19770] Requesting price for part_key=5499788 payload={'inputs': {'Part_Key': 5499788, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:15,308 [INFO] [19770] Response status 200 for part_key 5499788
+2026-02-02 08:24:15,308 [INFO] [19770] Returned 37 rows for part_key=5499788
+2026-02-02 08:24:15,368 [INFO] [19770] Selected PO 55079316 with price 84.26944 (status=Success)
+2026-02-02 08:24:15,368 [INFO] 13558246     C121         83.37        84.27        0.89574      Success                                            Fairfax      SCS        Bridgewater Interiors     4WM Cushion RH
+2026-02-02 08:24:15,373 [INFO] [19770] Requesting price for part_key=5622837 payload={'inputs': {'Part_Key': 5622837, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:15,977 [INFO] [19770] Response status 200 for part_key 5622837
+2026-02-02 08:24:15,978 [INFO] [19770] Returned 36 rows for part_key=5622837
+2026-02-02 08:24:16,028 [INFO] [19770] Selected PO 55079316 with price 120.6 (status=Success)
+2026-02-02 08:24:16,028 [INFO] 13566495     C121         116.18       120.60       4.42000      Success                                            Fairfax      SCS        Bridgewater Interiors     6WP Cushion LH
+2026-02-02 08:24:16,029 [INFO] [19770] Requesting price for part_key=5152700 payload={'inputs': {'Part_Key': 5152700, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:16,595 [INFO] [19770] Response status 200 for part_key 5152700
+2026-02-02 08:24:16,595 [INFO] [19770] Returned 0 rows for part_key=5152700
+2026-02-02 08:24:16,596 [INFO] 13526519     C121         32.09        32.09        0.00000      No PO's exist yet                                  Fairfax      SCS        Bridgewater Interiors     Manual Back LH
+2026-02-02 08:24:16,596 [INFO] [19770] Requesting price for part_key=5248683 payload={'inputs': {'Part_Key': 5248683, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:17,079 [INFO] [19770] Response status 200 for part_key 5248683
+2026-02-02 08:24:17,080 [INFO] [19770] Returned 16 rows for part_key=5248683
+2026-02-02 08:24:17,110 [INFO] [19770] Selected PO 55079316 with price 33.671 (status=Success)
+2026-02-02 08:24:17,111 [INFO] 13526520     C121         32.09        33.67        1.57857      Success                                            Fairfax      SCS        Bridgewater Interiors     Manual Back RH
+2026-02-02 08:24:17,113 [INFO] [19770] Requesting price for part_key=5622834 payload={'inputs': {'Part_Key': 5622834, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:17,670 [INFO] [19770] Response status 200 for part_key 5622834
+2026-02-02 08:24:17,670 [INFO] [19770] Returned 18 rows for part_key=5622834
+2026-02-02 08:24:17,696 [INFO] [19770] Selected PO 55079316 with price 41.0833 (status=Success)
+2026-02-02 08:24:17,696 [INFO] 13566496     C121         39.50        41.08        1.57857      Success                                            Fairfax      SCS        Bridgewater Interiors     Power Back LH
+2026-02-02 08:24:17,700 [INFO] [19770] Requesting price for part_key=4995704 payload={'inputs': {'Part_Key': 4995704, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:18,397 [INFO] [19770] Response status 200 for part_key 4995704
+2026-02-02 08:24:18,398 [INFO] [19770] Returned 19 rows for part_key=4995704
+2026-02-02 08:24:18,433 [INFO] [19770] Selected PO 55079316 with price 44.87 (status=Success)
+2026-02-02 08:24:18,437 [INFO] 13522765     C121         38.03        44.87        6.84063      Success                                            Fairfax      SCS        Bridgewater Interiors     60% Rear Seat
+2026-02-02 08:24:18,437 [INFO] [19770] Requesting price for part_key=4995699 payload={'inputs': {'Part_Key': 4995699, 'Shipper_Date_Begin': '2026-01-01T00:00:00Z'}}
+2026-02-02 08:24:18,932 [INFO] [19770] Response status 200 for part_key 4995699
+2026-02-02 08:24:18,933 [INFO] [19770] Returned 17 rows for part_key=4995699
+2026-02-02 08:24:18,955 [INFO] [19770] Selected PO 55079316 with price 25.4 (status=Success)
+2026-02-02 08:24:18,955 [INFO] 13522764     C121         25.40        25.40        0.00000      Success                                            Fairfax      SCS        Bridgewater Interiors     40% Rear Seat
+2026-02-02 08:24:18,955 [INFO] [885] Requesting Part_Key for 39021689 with payload {'inputs': {'Part_No': '39021689', 'Active_Only': 1}}
+2026-02-02 08:24:19,314 [INFO] [885] Response status 200 for part 39021689
+2026-02-02 08:24:19,314 [INFO] [885] Returned 0 candidate rows for 39021689
+2026-02-02 08:24:19,314 [INFO] [885] Part_Key not found via Part_No lookup for 39021689; retrying with Customer_Part_No.
+2026-02-02 08:24:19,314 [INFO] [885] Requesting Part_Key for 39021689 with payload {'inputs': {'Customer_Part_No': '39021689', 'Active_Only': 1}}
+2026-02-02 08:24:19,512 [INFO] [885] Response status 200 for part 39021689
+2026-02-02 08:24:19,513 [INFO] [885] Returned 0 candidate rows for 39021689
+2026-02-02 08:24:19,513 [INFO] 39021689     C121         4.52         4.52         0.00000      No part found (no Part_Key)                        Fairfax      SCS        Bridgewater Interiors     Latch LH    
+2026-02-02 08:24:19,513 [INFO] Skipping part 39021689 due to missing Part_Key (status logged only)
+2026-02-02 08:24:19,514 [INFO] [885] Requesting Part_Key for 39021688 with payload {'inputs': {'Part_No': '39021688', 'Active_Only': 1}}
+2026-02-02 08:24:19,751 [INFO] [885] Response status 200 for part 39021688
+2026-02-02 08:24:19,751 [INFO] [885] Returned 0 candidate rows for 39021688
+2026-02-02 08:24:19,751 [INFO] [885] Part_Key not found via Part_No lookup for 39021688; retrying with Customer_Part_No.
+2026-02-02 08:24:19,751 [INFO] [885] Requesting Part_Key for 39021688 with payload {'inputs': {'Customer_Part_No': '39021688', 'Active_Only': 1}}
+2026-02-02 08:24:19,960 [INFO] [885] Response status 200 for part 39021688
+2026-02-02 08:24:19,961 [INFO] [885] Returned 0 candidate rows for 39021688
+2026-02-02 08:24:19,961 [INFO] 39021688     C121         4.52         4.52         0.00000      No part found (no Part_Key)                        Fairfax      SCS        Bridgewater Interiors     Latch RH    
+2026-02-02 08:24:19,961 [INFO] Skipping part 39021688 due to missing Part_Key (status logged only)
+2026-02-02 08:24:19,961 [INFO] [885] Requesting Part_Key for 13517474 with payload {'inputs': {'Part_No': '13517474', 'Active_Only': 1}}
